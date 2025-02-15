@@ -1,12 +1,17 @@
 import Hero from "@/components/main/Hero";
 import Navbar from "../components/main/Navbar";
+import Skills from "@/components/main/Skills";
+import Encryption from "@/components/main/Encryption";
+import Projects from "@/components/main/Projects";
 
 export default function Home() {
   return (
     <main>
       <div className="flex flex-col gap-20 ">
-        <Navbar/>
         <Hero />
+        <Skills/>
+        <Encryption/>
+        <Projects/>
       </div>
     </main>
   );
