@@ -1,5 +1,4 @@
 import Hero from "@/components/main/Hero";
-import Navbar from "../components/main/Navbar";
 import Skills from "@/components/main/Skills";
 import Encryption from "@/components/main/Encryption";
 import Projects from "@/components/main/Projects";
