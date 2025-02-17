@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Space Portfolio
+
+A modern portfolio website built with Next.js, showcasing a space theme, interactive animations, and a demonstration of full-stack development skills.
+
+## Features
+
+- 🌌 Space-themed UI with animated backgrounds
+- 🎨 Smooth animations using Framer Motion
+- 💻 Responsive design powered by Tailwind CSS
+- 🔐 Encryption demonstration section
+- 🛠️ Interactive skills showcase
+- 📱 Mobile-friendly interface
+
+## Tech Stack
+
+- **Next.js 13**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Three.js**
+- **React Three Fiber**
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
+
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/briannjara/space-portfolio.git
+cd space-portfolio
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+or
+yarn install
+or
+pnpm install
+
+Then, start the development server:
+
+bash
+npm run dev
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Next.js app router pages and layouts
+- `components/` - React components
+  - `main/` - Major section components
+  - `sub/` - Reusable sub-components
+- `constants/` - Static data and configuration
+- `utils/` - Helper functions and animations
+- `public/` - Static assets and images
+
+## Customization
+
+You can start customizing the portfolio by:
+
+1. Modifying `constants/index.ts` to update skills and social links
+2. Editing components in `components/main/` to change major sections
+3. Adjusting the theme in `tailwind.config.ts`
+4. Updating assets in the `public/` directory
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The easiest way to deploy your portfolio is to use the [Vercel Platform](https://vercel.com/new).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is open source and available under the MIT License.
